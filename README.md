@@ -46,38 +46,3 @@ For requests made without a valid authentication token, the API should allow a m
 For requests made with a valid authentication token, the API should permit a maximum of 30 requests per minute per user.
 Docker Containerization
 All services utilized by the Tarpaulin API, such as databases, caches, and processing pipelines, should be executed within Docker containers. You can create and initialize these containers manually via the command line.
-
-New Tech, 3rd-Party Libraries, and Other Tools
-The final project provides an opportunity to explore and use backend technologies that were not covered in class. You are free to employ different database implementations, third-party libraries, and other tools to enhance your project's functionality and efficiency.
-
-## GitHub Repositories
-Your team's code for the final project should be stored in a GitHub repository created via the GitHub Classroom link. The repository will be initially set to private, but you have full administrative control and can make it public if desired. It is recommended to make your repository public, as it showcases your web development abilities and serves as a valuable addition to your CS portfolio. If you already have a GitHub repository for the project, you can simply use git remotes to work with both repositories.
-
-Working with a Team on a Shared GitHub Repo
-When collaborating with a team on a shared GitHub repository, it is advisable to follow a workflow that utilizes branches and pull requests. This approach offers several advantages:
-
-Working in separate branches minimizes conflicts that may arise when multiple team members modify the same sections of code simultaneously.
-Reviewing pull requests exposes you to the entire codebase, including changes made by other team members. This enhances your familiarity with the project and accelerates development.
-The pull request mechanism ensures that code is thoroughly reviewed and approved before being merged into the main code branch. This promotes high-quality code and allows everyone to contribute improvements.
-Consider adopting the GitHub flow, a simple and effective branch- and pull-request-based workflow: GitHub Flow Guide.
-
-## Grading Demonstrations
-To receive a grade for your project, your team must conduct a brief (10-15 minute) demonstration to the instructor. These demonstrations will be scheduled during finals week, and further details regarding scheduling will be provided later.
-
-Ensure you have a set of written requests/tests prepared to fully demonstrate your API's functionality during the grading demo. You are free to use tools such as Postman or Insomnia for testing purposes. Having these tests ready will contribute to your project's grade.
-
-## Submission
-All final project code must be pushed to the main branch of the repository created for your team using the GitHub Classroom link before the grading demo.
-
-## Grading Criteria
-Your team's grade (out of 100 points) for the final project will be based on the following criteria:
-
-50 points: Successful implementation of all endpoints specified in the Tarpaulin OpenAPI specification.
-10 points: Correct enforcement of authorization requirements for API endpoints.
-5 points: Proper implementation of pagination for applicable endpoints.
-5 points: Implementation of rate limiting as outlined in the project description.
-10 points: Execution of API services within Docker containers.
-10 points: Availability of written requests/tests to demonstrate API functionality during the grading demo.
-10 points: Design and implementation quality of the API.
-
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=11297459)
